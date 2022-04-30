@@ -7,7 +7,7 @@ Powershell shortcut with a key binding for a quick reboot of all video adapters 
 1) Download repository.
 2) Put both (.ps1 and .bat) files in same directory (for example, Desktop).
 3) Make a shortcut of .bat file (right click on your Desktop -> Create -> Shortcut).
-4) Right click on shorcut of .bat file -> Properties -> In the "shortcut key" box input any key you want (for example, Ctrl+Alt+V).
+4) Right click on shortcut of .bat file -> Properties -> In the "shortcut key" box input any key you want (for example, Ctrl+Alt+V).
 
 ## Usage
 
