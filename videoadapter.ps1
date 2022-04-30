@@ -1,0 +1,1 @@
+for (($i = 1); $i -lt ((wmic PATH Win32_videocontroller GET description).Length-4)/2 + 1; $i++) {(pnputil /disable-device (('"'+(wmic PATH Win32_videocontroller GET pnpdeviceid)[$i*2]).Trim()+'"')); (Start-Sleep -s 7); (pnputil /enable-device (('"'+(wmic PATH Win32_videocontroller GET pnpdeviceid)[$i*2]).Trim()+'"'))}
